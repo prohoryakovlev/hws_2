@@ -1,6 +1,16 @@
 .sendForm {
-    display: flex;
-    justify-content: space-between;
+
+
+}
+
+.hw1-textarea{
+
+}
+.MessageSender_textarea__mjbnJ{
+
+}
+
+.textarea {
     width: 976px;
     height: 40px;
     left: 70px;
@@ -11,14 +21,24 @@
     border-radius: 20px;
 }
 
-.hw1-textarea{
-
-}
-
-
-
 .button {
+    width: 120px;
+    height: 40px;
+    left: 1090px;
+    top: 408px;
 
+    background: #0066CC;
+    border-radius: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
 }
 
 .button:hover {
