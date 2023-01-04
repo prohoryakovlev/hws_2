@@ -17,7 +17,7 @@ import s2 from '../../s1-main/App.module.css'
 * */
 
 // types
-export type AffairPriorityType = 'high'| 'middle' | 'low'// need to fix any
+export type AffairPriorityType = 'high'| 'middle' | 'low' // need to fix any
 export type AffairType = {
     _id: number // need to fix any
     name: string // need to fix any
@@ -35,11 +35,11 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
 ]
 
 // pure helper functions
-export const filterAffairs = (affairs: any, filter: any): any => { // need to fix any
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => { // need to fix any
     //если пришел фильтр "all"...может нам вообще не фильтровать, а вернуть все?
     //а вот если пришло другое значение...
 
-    return affairs // need to fix
+    return affairs.filter(el=>el.priority === filter) // need to fix
 }
 export const deleteAffair = (affairs: any, _id: any): any => { // need to fix any
     // need to fix
