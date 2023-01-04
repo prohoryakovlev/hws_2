@@ -17,13 +17,13 @@ import s2 from '../../s1-main/App.module.css'
 * */
 
 // types
-export type AffairPriorityType = any // need to fix any
+export type AffairPriorityType = string // need to fix any
 export type AffairType = {
-    _id: any // need to fix any
-    name: any // need to fix any
+    _id: number // need to fix any
+    name: string // need to fix any
     priority: AffairPriorityType
 }
-export type FilterType = 'all' | AffairPriorityType
+export type FilterType = string | AffairPriorityType
 
 // constants
 const defaultAffairs: any = [ // need to fix any
@@ -64,10 +64,9 @@ function HW2() {
             <div className={s2.hw}>
                 <Affairs
                     data={filteredAffairs}
-                    filter={filter}        // ого useState передаем!
-                    setFilter={setFilter}  // ого useState передаем!
+                    filter={filter}          // ого useState передаем!
+                    setFilter={setFilter}    // ого useState передаем!
                     deleteAffairCallback={deleteAffairCallback}
-
                 />
             </div>
         </div>

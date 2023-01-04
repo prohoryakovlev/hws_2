@@ -1,26 +1,11 @@
 .App {
-
     --header_height: 60px;
-
-
 }
 
 .hw {
+
 }
 
 .hwTitle {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    padding: 107px 1045px 10px 70px;
-    border: 1px solid #D9D9D9;
-}
-.App_hw__qCdwn{
-    display: flex;
-}
-.Message_imageAndText__0zxrC{
-    display: flex;
-    justify-content: flex-end;
+
 }
